@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Entities
 {
-    internal class Student
+    public class Student
     {
     }
 }
