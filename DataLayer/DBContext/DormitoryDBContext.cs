@@ -11,6 +11,9 @@ namespace DataLayer.DBContext
     public class DormitoryDBContext : DbContext
     {
         public DbSet<Student> Students { get; set; }
+        public DbSet<Dormitory> Dormitories { get; set; }
+        public DbSet<StudentDormitory> StudentDormitories { get; set; }
+
         public DormitoryDBContext()
         {
         }
@@ -28,6 +31,13 @@ namespace DataLayer.DBContext
             modelBuilder.Entity<Student>(entity => {
                 entity.HasKey(k => k.Id);
             });
+            modelBuilder.Entity<Dormitory>(entity => {
+                entity.HasKey(k => k.Id);
+            });
+            modelBuilder.Entity<StudentDormitory>(entity => {
+                entity.HasKey(k => k.Id);
+            });
+
         }
     }
 }
