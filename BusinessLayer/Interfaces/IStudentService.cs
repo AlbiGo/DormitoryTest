@@ -10,6 +10,7 @@ namespace BusinessLayer.Interfaces
     public interface IStudentService
     {
         public Task<List<Student>> GetAllStudents();
+        public Task ShtoStudent(Student student);
 
     }
 }

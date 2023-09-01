@@ -24,5 +24,12 @@ namespace BusinessLayer.Services
             var students =  await _dormitoryDBContext.Students.ToListAsync();
             return students;
         }
+
+        public async Task ShtoStudent(Student student)
+        {
+            await _dormitoryDBContext.Students.AddAsync(student);
+            await _dormitoryDBContext.SaveChangesAsync();
+
+        }
     }
 }
