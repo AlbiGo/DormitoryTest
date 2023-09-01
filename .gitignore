@@ -57,3 +57,7 @@
 /.vs/ProjectEvaluation/dormitory.projects.v5.2
 /.vs/ProjectEvaluation/dormitory.metadata.v5.2
 /.vs/Dormitory/DesignTimeBuild/.dtbcache.v2
+/BusinessLayer/bin/Debug/net6.0/DataLayer.pdb
+/BusinessLayer/obj/Debug/net6.0/BusinessLayer.csproj.CopyComplete
+/BusinessLayer/obj/Debug/net6.0/BusinessLayer.csproj.BuildWithSkipAnalyzers
+/Dormitory/obj/Debug/net6.0/Dormitory.csproj.BuildWithSkipAnalyzers
